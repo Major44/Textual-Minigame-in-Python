@@ -1,8 +1,5 @@
 """Ce module permet de generer des valeurs aleatoires"""
-import random  
-
-
-
+import random 
 
 
 """Permet de verifier si la chaine de caracteres est un entier valide."""
@@ -11,6 +8,7 @@ def is_integer(chaineCaractere):
         return False
     return chaineCaractere.strip().isdigit()
 
+""" Declaration des variables """
 motSecret = ["Secret", "Soleil", "Terre", "Mars", "Paris"]
 motJoueur = ""
 indice = "Si vous lavez, vous voulez le partager. Si vous le partagez, vous ne l'avez plus "
